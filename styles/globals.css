@@ -1,0 +1,96 @@
+/* globals.css */
+
+/* Reset or normalize styles for consistent rendering across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global links */
+  a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Set up heading styles */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5em;
+    color: #333;
+  }
+  
+  /* Add spacing to paragraphs */
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* Set default button styles */
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Form styles */
+  input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #0070f3;
+    outline: none;
+  }
+  
+  /* Layout helper classes */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
